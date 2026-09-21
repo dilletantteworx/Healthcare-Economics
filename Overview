@@ -1,0 +1,149 @@
+HEALTHCARE ECONOMICS REDESIGN: COMPREHENSIVE SYNOPSIS
+
+CORE CONCEPT
+Replace traditional insurers with "Advocates" who bid to care for defined regions of 
+~10,000 people. Advocates are paid a fixed stipend plus performance bonuses tied to 
+population health outcomes. The system uses reverse Vickrey auctions to award regions 
+and incentivizes preventative care, quality of life, and cost efficiency.
+
+AUCTION MECHANISM
+- Reverse Vickrey auction: Lowest bidder wins a region
+- Winning bid = fixed price + bonus structure
+- Bids evaluated on expected value of bonus
+- Winner receives second-lowest bid price
+- Bonuses paid after one year based on actual performance
+
+TENURE AND COMPETITION
+- Successful Advocates continue the following year at same terms (inflation-adjusted)
+  without re-bidding
+- Unhealthy regions re-bid annually
+- Advocates ranked annually; bottom 1/5th cannot bid on new regions
+- Advocates losing >50% of regions barred from future bidding
+- Advocates losing a region barred from next auction but may bid in immediate 
+  re-auction if no other bids received
+- Design prevents excessive wealth extraction and enforces market discipline on 
+  pricing and care quality
+
+ACTOR ROLES
+
+Government:
+- Collects taxes; pays fixed stipends and bonuses
+- Provides population-level baseline metrics (death certificates, employment records, 
+  disability claims, hospitalization rates)
+- Submits research bids to Auction Houses
+- Employs expert staff to manage healthcare research and data validation
+
+Auction Houses:
+- Anonymized data warehouses managing secret bids
+- Purchase research (in duplicate/triplicate for validation) and sell results to 
+  government, Advocates, and third parties
+- Function as profit centers selling market intelligence to manufacturers and researchers
+
+Researchers:
+- Bid for research contracts via Auction Houses
+- Build region maps
+- Operate blind to client identity (government vs. Advocate)
+- Use billing codes and confirmation interviews to validate data without direct 
+  Advocate interaction
+
+Advocates:
+- Business-model agnostic (for-profit, non-profit, hybrid)
+- Can be lightweight (data specialists, actuaries) or comprehensive (clinics, gyms, 
+  grocery stores)
+- May employ existing doctors or build their own networks
+- Set their own bonus targets but constrained by re-bidding competition
+- No authority to prevent patients from seeking care elsewhere; freedom of choice preserved
+- Can recommend alternatives and coordinate care across providers
+
+PERFORMANCE METRICS
+
+Initially, Advocates ranked on outcomes measurable from existing infrastructure:
+
+1. Disability-Free Life Expectancy
+2. Average Age of First Chronic Disease Diagnosis
+3. Employment Rate (age 55–70)
+4. Cost per Healthy Life Year Gained
+5. Time to First Hospitalization (preventable conditions)
+6. Mortality Rate (age-adjusted)
+7. Hospital Readmission Rate (30-day)
+8. Functional Independence (measured via periodic assessment or claims-based proxy)
+9. Healthcare Utilization Efficiency (ED visits, unnecessary procedures relative to baseline)
+10. Patient-Reported Health Status (administered periodically)
+
+Data sources: Disability insurance claims, pharmacy claims, disease registries, 
+employment records, hospital discharge data, ED records, functional assessments, 
+patient surveys.
+
+Possible metrics from new infrastructure:
+
+1. Maternal Mortality and Morbidity
+2. Acute Myocardial Infarction Outcomes
+3. Diabetes Control and Complications
+4. Opioid Overdose Death Rate and Treatment Access
+5. Colorectal Cancer Screening and Mortality
+6. Hypertension Control
+7. Breast Cancer Screening
+8. Kidney Disease Screening and Progression in Diabetic and Hypertensive Populations
+9. Mental Health and Suicide Prevention 
+10. Prostate Cancer Screening, Diagnosis and Mortality
+
+Metric inflation-adjusted budget: New metrics added if cheaper or more effective 
+than existing ones. Metrics weighted to incentivize prevention (delaying disease 
+onset, maintaining healthspan) over end-of-life quantity extension.
+
+DATA AND VALIDATION
+
+- Advocates must report all required data to Auction House
+- Researchers validate data without knowing Advocate identity
+- Draconian penalties for deliberate data falsification; accidental errors granted 
+  limited remediation
+- Provably intentional mis-reporting triggers region re-bid
+- Doctors maintain independent medical records separate from Advocate reporting
+- Validation budget held constant; efficiency gains free up resources for new metrics
+
+INCENTIVE ALIGNMENT
+
+By design:
+- Fixed stipend covers baseline operations; bonus rewards outcome improvement
+- Competition for regions enforces pricing discipline (no excessive copay extraction)
+- Threat of re-bidding prevents underperformance
+- Ranking system (bottom 1/5th excluded) ensures continuous improvement
+- Preventative metrics reward disease prevention and healthspan over acute care spending
+- Cost-efficiency component prevents gold-plating while preserving research incentives
+- Preservation of patient choice prevents Advocate coercion
+
+IMPLEMENTATION STRATEGY
+
+Phase 1: Academic research to refine model parameters (population sizes, metric weights, 
+bonus ranges)
+
+Phase 2: Pilot programs targeting underserved populations to test feasibility and 
+gather local cost data
+
+Phase 3: Implementation in volunteer state or major city (with potential need for 
+federal law changes)
+
+Cost estimation methods: Reverse auction floor prices, current spending baseline adjusted 
+for efficiency gains, international comparisons (Germany, Netherlands, Taiwan), 
+bottom-up Advocate delivery models, metric validation cost studies.
+
+ALIGNMENT WITH U.S. STRENGTHS
+
+- Preserves U.S. drug research advantage: Preventative and quality-of-life medications 
+  become high-value under the metric structure; manufacturers profit from innovation 
+  in prevention rather than end-of-life extension
+- Utilizes existing healthcare infrastructure and professional networks; minimizes 
+  career disruption for providers
+- Market competition drives gradual efficiency gains as Advocates learn population-
+  specific care delivery models
+- Reduces unnecessary utilization (estimated 10–25% leftward demand shift for low-value 
+  care based on managed care and integrated system benchmarks) without centralized 
+  rationing
+
+OPEN DESIGN PARAMETERS
+
+- Optimal population size (10k, 20k, 50k) to ensure quality signals dwarf noise
+- Specific bonus weights for mortality, quality-of-life, and cost efficiency to align 
+  demand curve with policy goals
+- Details on medical record transfer and continuity of care during region re-bidding
+- Initial Auction House infrastructure and profit-center structure
