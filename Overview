@@ -2,21 +2,20 @@ HEALTHCARE ECONOMICS REDESIGN: COMPREHENSIVE SYNOPSIS
 
 CORE CONCEPT
 Replace traditional insurers with "Advocates" who bid to care for defined regions of 
-~10,000 people. Advocates are paid a fixed stipend plus performance bonuses tied to 
+~10,000 people. Advocates are paid a fixed stipend plus competitive bonus tied to 
 population health outcomes. The system uses reverse Vickrey auctions to award regions 
 and incentivizes preventative care, quality of life, and cost efficiency.
 
 AUCTION MECHANISM
-- Reverse Vickrey auction: Lowest bidder wins a region
-- Winning bid = fixed price + bonus structure
-- Bids evaluated on expected value of bonus
+- Reverse Vickrey auction: Lowest bidder wins
+- Bid valuation = fixed operating budget + bonus expectation value
 - Winner receives second-lowest bid price
-- Bonuses paid after one year based on actual performance
+- Bonuses paid annually based on last year's performance
 
 TENURE AND COMPETITION
-- Successful Advocates continue the following year at same terms (inflation-adjusted)
+- Successful Advocates continue the following year at same inflation-adjusted terms
   without re-bidding
-- Unhealthy regions re-bid annually
+- Annual re-bid for unhealthiest 1/5th of regions.
 - Advocates ranked annually; bottom 1/5th cannot bid on new regions
 - Advocates losing >50% of regions barred from future bidding
 - Advocates losing a region barred from next auction but may bid in immediate 
