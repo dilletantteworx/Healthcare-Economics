@@ -147,3 +147,213 @@ OPEN DESIGN PARAMETERS
   demand curve with policy goals
 - Details on medical record transfer and continuity of care during region re-bidding
 - Initial Auction House infrastructure and profit-center structure
+
+HEALTHCARE ECONOMICS REDESIGN: COMPREHENSIVE SYNOPSIS
+(Revised Addendum Based on Iterative Design)
+
+CORE CONCEPT
+Replace traditional insurers with "Advocates" who bid to care for defined regional 
+populations. Government collects taxes; pays fixed stipends and performance bonuses; 
+Advocates deliver or coordinate care; Auction Houses manage data, research, and market 
+intelligence as independent (for-profit or nonprofit) entities.
+
+REGIONAL SCALE & AUCTION MECHANISM
+Target population: 20,000 people per region.
+Auction type: Reverse Vickrey (lowest bidder wins).
+Winning bid structure: Fixed price + performance bonus.
+Bonus comparison: Based on naive expectation value.
+Winner's compensation: Second-lowest bid price; bonus expands to match second-lowest 
+bid's expectation value.
+
+INCENTIVE STRUCTURE & TENURE
+Year 1 compensation: Fixed rate + single bonus paid after 12 months.
+Continuation: Successful Advocates continue with inflation-adjusted terms without 
+re-bidding.
+Re-bidding triggers: Regions with poor health outcomes; unhealthy regions re-bid annually.
+Sanctions: Advocates ranking in bottom 1/5th (annual) or losing >50% of regions cannot 
+bid on new regions. Advocates losing a region are barred from the immediate next auction 
+but may bid in a re-auction if no other bids are received.
+Secondary market: Prohibited. Regions cannot be sold mid-year between Advocates.
+
+CONTINUITY OF CARE RULE
+Upon re-bidding or Advocate transition, incoming Advocate B assumes care relationships 
+automatically with a 30-day patient opt-out window. Self-interest incentive: continuity 
+lapses directly reduce Advocate B's bottom line via metric penalties.
+
+ROLES & RESPONSIBILITIES
+
+Government:
+  - Collects taxes; pays fixed stipends and bonuses.
+  - Provides initial population metrics.
+  - Submits research bids to Auction Houses.
+  - Employs expert staff for oversight and metric validation.
+
+Auction Houses (independent for-profit or nonprofit organizations):
+  - Maintain anonymized data warehouses and manage secret bids.
+  - Assign researchers to projects via blind bidding (researchers unaware of buyer identity).
+  - Validate metric outcomes through researcher competition (top 2 bids commissioned; 
+    mismatches trigger third/fourth study).
+  - Package and resell research to Advocates, Government, manufacturers, and other 
+    interested parties.
+  - Function as profit centers through market intelligence sales.
+  - Enforce draconian penalties for purposeful metric misreporting.
+
+Researchers:
+  - Bid competitively on research projects.
+  - Remain blinded to client identity (Advocate, Government, drug manufacturer, etc.).
+  - Validate outcomes using billing codes, interviews, and registry data.
+  - Incentivized toward accuracy via competitive bidding and reputational risk 
+    (faulty data discovered by subsequent researchers damages future bidding prospects).
+
+Advocates (business-model agnostic):
+  - May operate as lightweight entities (actuaries/care coordinators) or comprehensive 
+    systems (integrated clinics, gyms, prevention centers).
+  - May collect copays from patients (rules TBD: cap and income-based variation pending).
+  - Assume automatic care continuity during re-bids.
+  - Examine efficacy of current care regimens and improve underperforming provider 
+    relationships.
+  - Preserve patient freedom to seek external care at own expense.
+  - Prohibited from mid-year region sales.
+
+Non-Profit Entry Programs (SBA-Supported):
+  - Grants for compliance infrastructure (billing, data validation software).
+  - Actuarial consulting subsidies for underserved communities.
+  - Loan guarantees for startup runway.
+  - Target regions: rural and urban underserved areas currently lacking Advocate capacity.
+
+PERFORMANCE METRICS
+
+Primary Metrics (health and equity focus):
+  - Disability-Free Life Expectancy
+  - Average Age of First Chronic Disease Diagnosis
+  - Employment Rate (ages 55–70)
+  - Cost per Healthy Life Year Gained
+  - Time to First Hospitalization
+  - Mortality Rate (age-adjusted)
+  - Hospital Readmission Rate (30-day)
+  - Functional Independence
+  - Healthcare Utilization Efficiency
+  - Patient-Reported Health Status
+
+High-Impact Disparity Metrics (statutorily race-neutral; tracked demographically):
+  - Maternal mortality/morbidity
+  - Female acute myocardial infarction outcomes
+  - Diabetes control
+  - Opioid overdose and treatment access
+  - Colorectal cancer screening and mortality
+  - Hypertension control
+  - Breast cancer screening and mortality
+  - Kidney disease progression
+  - Mental health and suicide prevention
+  - Prostate cancer screening and mortality
+
+Metric Dynamics:
+  - Metrics prioritize prevention and healthspan over end-of-life quantity.
+  - New metrics can replace existing ones if cheaper or more effective to measure 
+    and track.
+  - Lagged metrics (e.g., disability-free life expectancy of cohorts 3+ years post-entry) 
+    included in bonus function to prevent Year 1 moral hazard and short-term optimization.
+  - Bonus weighting structure (Year 1 vs. Years 2–5) prevents Advocates from abandoning 
+    regions if early results disappoint (pending explicit allocation formula).
+
+Data Sources & Validation:
+  - Insurance/pharmacy claims, registries, employment records, hospital/ED data, 
+    functional assessments, surveys, vital certificates.
+  - Constant inflation-adjusted budget; draconian penalties for purposeful misreporting.
+  - Researchers validate outcomes independently and competitively.
+
+COLLUSION RESISTANCE MECHANISMS
+
+Researcher Independence:
+  - Researchers bid on projects without knowing Advocate, Government, drug manufacturer, 
+    or other buyer identity.
+  - Auction House assigns top 2 (or more) bids independently.
+  - Metric mismatches across studies trigger additional validation research.
+  - Reputational damage and bidding failure deter collusion far more than any single contract.
+
+Advocate-Researcher Separation:
+  - Advocates cannot identify which researchers validate their outcomes.
+  - Researchers cannot identify which Advocate's data they analyze.
+  - Third-party verification (Auction House, Government) manages assignment.
+
+Data Portability & Patient Access:
+  - Centralized database (offered by Auction Houses) where patients open sandboxed 
+    connections to their own records.
+  - Prevents lock-in; enables patient portability.
+
+IMPLEMENTATION & TIMELINE
+
+Strategy:
+  1. Academic research and cost-estimation studies (5-year window).
+  2. Pilot programs in underserved regions (with SBA non-profit support).
+  3. State-level or large-city implementation (bypasses Congressional gridlock).
+
+Cost Estimation Approach:
+  - Examine intersection of new demand curve (driven by Advocate incentives) with 
+    current supply curve.
+  - Reference international precedents (Kaiser Permanente: 6–8 years longer life 
+    expectancy, 50–70% higher Stage 1 cancer diagnosis rates).
+  - Bundled payment models (BPCI, CJR) show 56–60% cost/quality gains but are episodic; 
+    Advocate model targets regional and longitudinal alignment.
+  - Demand curve shifts: 40–60% (low-value), 10–20% (moderate-value), 0–5% (high-value 
+    care).
+  - Managed care reduces unnecessary utilization by 10–25%; integrated systems achieve 
+    15–25% leftward demand shift.
+  - Cost-effectiveness reference thresholds: UK (NICE) £20–30K/QALY; Australia A$50K/QALY; 
+    US (implicit) $100–150K/QALY.
+
+PRICING & INCENTIVES
+
+Drug Price Negotiation:
+  - Partially addressed by Advocate's view of entire regional market (vs. fragmented 
+    payer perspective today).
+
+Rural Viability:
+  - Rural regions attract higher bids due to lower competition; Advocates develop 
+    rural-specific cost-effective systems (telemedicine, community health workers, etc.).
+  - Market mechanisms (higher bids, longer contract security) attract capable Advocates 
+    to underserved rural areas.
+
+Doctors & Records:
+  - Physicians maintain records independently.
+  - Advocates do not own medical records; coordinate care via data-sharing agreements.
+
+EXPLICIT EXCLUSIONS & DECISIONS
+
+Excluded from white paper (to avoid politicization):
+  - Statutory metrics are race-neutral; demographic tracking and disparity analysis 
+    conducted by Auction Houses and researchers without framing as politically sensitive.
+  - Values judgments about "fairness" or "equity" replaced with metric-driven outcomes.
+
+Metrics presentation:
+  - Avoid explicit function weights (β values).
+  - Use 3D color plot showing outcome space (health, cost, equity) and sensitivity analysis.
+
+OUTSTANDING DESIGN QUESTIONS (Not white-paper blockers)
+
+1. Lagged metrics weighting: What proportion of Year 1 bonus vs. Years 2–5 bonus to 
+   prevent short-term abandonment?
+2. SBA program parameters: Budget, eligible regions (rural + urban underserved), permanent 
+   vs. pilot-only.
+3. Re-bid timing and appeals: Notice period, appeal rights, 90-day transition logistics.
+4. Initial Auction House capitalization: Government seed funding vs. research institution 
+   startup.
+5. Metrics lock-in governance: Who approves new metrics? Approval timeline and process.
+6. Rural workforce models: Explicit guidance (e.g., telemedicine + community health worker 
+   cost targets) vs. discovery-based approach.
+7. Workforce transition support: Labor market studies, specialist displacement mitigation, 
+   geographic workforce planning.
+8. Copay design: Cap amount, income-based variation, equity guardrails (pending explicit rules).
+
+WHITE PAPER READINESS STATUS
+
+Complete institutional scaffolding for:
+  - Non-profit entry support (SBA programs).
+  - Re-bidding and care continuity (automatic transfer + 30-day opt-out).
+  - Researcher independence and collusion resistance (blind bidding, competitive validation).
+  - Auction House governance (independent entities, profit-center data resale, researcher 
+    blinding).
+  - Long-term incentive alignment (lagged metrics in bonus function).
+  - Rural economic viability (market-driven bid competition).
+
+Remaining items are ements, not blockers.
