@@ -1,0 +1,234 @@
+HEALTHCARE ECONOMICS REDESIGN: REGIONAL ADVOCATE MODEL
+Handoff Document | Comprehensive yet Terse
+
+================================================================================
+CORE MECHANISM
+================================================================================
+
+REGIONAL UNITS: 20,000-person regions. Advocates (business-model agnostic: 
+actuaries, clinics, gyms, etc.) bid via reverse Vickrey auction.
+
+AUCTION LOGIC:
+  - Bid = fixed price + bonus (expressed as expectation value)
+  - Winner: lowest bid (fixed price + bonus expectation)
+  - Winner's payment: second-lowest bid's total price
+  - Winner's bonus: expands to match second-lowest bid's expectation value
+  - Rationale: Incentivizes honest bidding; prevents winner's curse
+
+TENURE & CONTINUITY:
+  - Year 1: Fixed rate; single bonus paid after 12 months
+  - Year 2+: Inflation-adjusted continuation (no re-bid) if healthy region
+  - Unhealthy regions: Re-bid annually
+  - Care transfer: Incoming Advocate auto-assumes all patients (no opt-out)
+    Incentive: Advocate profits by retaining/improving inherited population
+
+SANCTIONS:
+  - Bottom 1/5th (annual ranking): Cannot bid on new regions
+  - Lost >50% of regions: Cannot bid on new regions
+  - Lost a region: Barred from immediate next auction; may bid in re-auction
+    if no other bids received
+
+================================================================================
+ENTITIES & RESPONSIBILITIES
+================================================================================
+
+GOVERNMENT
+  - Collects taxes; pays fixed rates + bonuses
+  - Provides initial population metrics
+  - Submits research bids; employs expert staff
+  - Sets/updates bonus metrics (via governance process TBD)
+
+AUCTION HOUSES (independent; profit or non-profit)
+  - Anonymized data warehouses; manage secret bids
+  - Package/resell research to Advocates, Government, manufacturers
+  - Assign researchers to projects; validate researcher output
+  - Operate as profit centers
+
+ADVOCATES
+  - Bid on regions; win at auction
+  - Deliver or coordinate care; manage operations
+  - Earn bonuses based on population health metrics
+  - May collect copays (rules TBD)
+  - Cannot participate in secondary markets (no mid-year transfers)
+
+RESEARCHERS
+  - Blinded to client identity; bid competitively on projects
+  - Assigned by Auction Houses (top 2 bids; mismatch → 3rd/4th study)
+  - Validated via billing codes, interviews, registries
+  - Output: Metrics reporting, cost estimates, policy analysis
+
+PATIENTS
+  - Automatic transfer to new Advocate on region changeover
+  - Retain freedom to seek external care at own expense
+  - Open sandboxed connections to centralized records (via Auction Houses)
+
+================================================================================
+BONUS METRICS (No Lagging; Inherently Slow-Moving)
+================================================================================
+
+PRIMARY METRICS:
+  - Disability-Free Life Expectancy
+  - Average Age of First Chronic Disease Diagnosis
+  - Employment Rate (age 55–70)
+  - Cost per Healthy Life Year Gained
+  - Time to First Hospitalization
+  - Mortality Rate (age-adjusted)
+  - Hospital Readmission Rate (30-day)
+  - Functional Independence
+  - Healthcare Utilization Efficiency
+  - Patient-Reported Health Status
+
+HIGH-IMPACT DISPARITY METRICS (race-neutral statute; demographic tracking):
+  - Maternal mortality/morbidity
+  - Female AMI outcomes
+  - Diabetes control
+  - Opioid overdose/treatment
+  - Colorectal cancer screening/mortality
+  - Hypertension control
+  - Breast cancer screening/mortality
+  - Kidney disease progression
+  - Mental health/suicide prevention
+  - Prostate cancer screening/mortality
+
+DATA SOURCES:
+  - Insurance/pharmacy claims
+  - Registries
+  - Employment records
+  - Hospital/ED data
+  - Functional assessments
+  - Surveys
+  - Certificates
+
+VALIDATION:
+  - Constant inflation-adjusted budget
+  - Draconian penalties for purposeful mis-reporting
+
+BONUS FUNCTION DESIGN (TBD):
+  - Sensitivity analysis via 3D color plot (health × cost × equity)
+  - Avoid explicit function weights (β values) in white paper
+  - Incentive structure must temper economic transition and set expected costs
+
+DEMAND CURVE LOGIC:
+  - Advocate incentives shift demand leftward (prevention, healthspan focus)
+  - Expected shifts: 40–60% (low-value), 10–20% (moderate-value), 0–5% (high-value)
+  - Cost = intersection of new demand curve + current supply curve
+  - Benchmarks: Managed care (10–25% utilization ↓); Kaiser (15–25% leftward shift)
+  - Cost-effectiveness thresholds: UK £20–30K/QALY; Australia A$50K/QALY; 
+    US (implicit) $100–150K/QALY
+
+================================================================================
+IMPLEMENTATION
+================================================================================
+
+STRATEGY: Academic research → Pilot (underserved regions, SBA support) 
+          → State/city rollout (bypass Congressional gridlock)
+
+TIMELINE: ~5 years to full implementation
+
+SBA SUPPORT (for pilot/underserved regions):
+  - Grants: Compliance infrastructure (billing, data validation software)
+  - Subsidies: Actuarial consulting
+  - Loan guarantees: Startup runway
+  - Details (budget, qualifying regions, permanent vs. pilot): TBD
+
+DATA ARCHITECTURE:
+  - Centralized database via Auction Houses
+  - Patients: Sandboxed record access
+  - Doctors: Maintain records independently
+  - Auction Houses: Anonymized; research-ready
+
+COPAYS:
+  - Advocates may collect copays
+  - Caps and income-based variation: TBD
+
+================================================================================
+OPEN QUESTIONS FOR WHITE PAPER
+================================================================================
+
+1. BONUS FUNCTION WEIGHTING
+   - How to allocate bonus magnitude across metrics to prevent moral hazard?
+   - Sensitivity analysis: Which metrics drive cost/equity/health trade-offs?
+
+2. SBA PROGRAM SPECIFICS
+   - Total budget allocation
+   - Qualifying regions (rural vs. urban criteria)
+   - Permanent program vs. pilot sunset
+
+3. RE-BID LOGISTICS
+   - Notice periods for unhealthy region re-bids
+   - Appeal rights
+   - 90-day transition procedures
+
+4. AUCTION HOUSE CAPITALIZATION
+   - Government seed funding vs. research institution startup
+   - Break-even model / profit structure
+
+5. METRICS GOVERNANCE
+   - Approval process for adding/replacing metrics
+   - Timeline for metric changes
+   - How to handle new disparity evidence?
+
+6. RURAL WORKFORCE & COST GUIDANCE
+   - Ex-ante cost guidance to Advocates vs. rely on discovery
+   - Telemedicine/CHW infrastructure pre-seeding
+
+7. LABOR MARKET TRANSITION
+   - Support for displaced specialists (retraining, income bridge)
+   - Geographic workforce planning (rural supply constraints)
+
+8. COPAY DESIGN
+   - Income-based caps / variation rules
+   - Interaction with Advocate incentives (moral hazard prevention)
+
+================================================================================
+ANCHORS & RATIONALE
+================================================================================
+
+COST ESTIMATION APPROACHES:
+  1. Reverse auction floor (market-revealed minimum)
+  2. Current spending adjusted for efficiency gains
+  3. International comparisons
+  4. Bottom-up Advocate delivery model
+  5. Metric validation cost study
+
+DEMAND CURVE THEORY:
+  - Advocates have structural incentive: capture healthspan gains
+  - Reduces low-value, reactive care (ED, readmission, late diagnosis)
+  - Increases prevention, early intervention
+  - Supply curve unchanged; demand shifts left → lower equilibrium cost
+
+MORAL HAZARD SAFEGUARDS:
+  - Metrics inherently slow-moving (no lagging needed)
+  - Advocates punished if region health deteriorates (re-bid, sanctions)
+  - Researchers blinded to client; competitive bidding prevents collusion
+  - Draconian penalties for data fraud
+  - Patient freedom to seek external care (Advocate must earn retention)
+
+COMPARATIVE BENCHMARKS:
+  - Kaiser Permanente: 6–8 years longer life expectancy; 50–70% more Stage 1
+    cancer diagnoses (via vertical integration)
+  - Bundled payment models (BPCI, CJR): 56–60% cost/quality gains 
+    (but episodic, not regional)
+  - This model: Regional, long-term, full-spectrum incentive alignment
+
+CONTINUITY MECHANISM:
+  - Auto-transfer preserves care relationships
+  - No opt-out: Simplifies transition; prevents adverse selection
+  - Incoming Advocate's profit = keeping inherited population healthy
+  - No lagging needed; continuous incentive works post-entry
+
+================================================================================
+DECISIONS MADE
+================================================================================
+
+✓ Doctors maintain records independently
+✓ Researchers blinded to Advocate/buyer identity (prevent collusion)
+✓ Avoid explicit function weights (β) in white paper; use 3D sensitivity plot
+✓ Patient freedom to seek external care at own expense preserved
+✓ Metrics prioritize prevention/healthspan over end-of-life quantity
+✓ Statutory metrics are race-neutral; demographic tracking by Auction Houses
+✓ No secondary markets (mid-year region transfers prohibited)
+✓ No lagging bonuses (metrics inherently slow-moving)
+✓ No patient opt-out on Advocate transfer (auto-assumption)
+
+================================================================================
