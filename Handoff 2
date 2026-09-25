@@ -1,0 +1,114 @@
+REGIONAL ADVOCATE MODEL: HANDOFF DOCUMENT FOR ACADEMIC VALIDATION WHITE PAPER
+
+TARGET AUDIENCE & GOAL
+- Audience: Academics (peer review credibility)
+- Purpose: Validate model so a legislator can propose a pilot study
+- Legislator constraint: Must have funds to cover ~150K underserved people
+- Success metric: Academic credibility > political palatability
+
+CORE MECHANISM
+- Region: 20,000 people (base unit; pilot ~7-8 regions for 150K)
+- Advocates (former insurers, actuaries, clinics, health networks, etc.) bid via reverse Vickrey auction
+  * Bid = 100% fixed rate + expected bonus value (50%)
+  * Winner: lowest total bid; paid expected fixed rate plus expanded bonus to match second-lowest bid's expectation value
+  * Tenure: Year 1 fixed + bonus (12-month); Year 2+ same, inflation-adjusted
+  * Healthy regions: automatic continuation option
+  * Unhealthy regions: re-bid annually
+- Care transfer: Incoming Advocates assume all patients (no opt-out)
+- Sanctions: Bottom 1/5 annual ranking OR >50% region loss → bars new bidding
+  * Losing one region → can't bid next auction (unless no other bidders)
+- Anti-monopoly: No Advocate >1/10th of all regions
+- Sabotage prevention: Final month operating check tendered upon
+  complete patient handoff certification
+
+ENTITIES & ROLES
+- Government: Collects taxes, pays rates/bonuses, sets/publishes metrics (6+ months
+  advance), provides outcome data, manages waivers
+- Auction Houses (profit/non-profit; operate nationally, not regionally):
+  * Primary: 2-sided data marketplace (sell to researchers, Advocates, competitors)
+  * Secondary: Hold anonymized bids, manage blinded researchers, validate via
+    billing codes/interviews/registries
+  * Compete on fee structure (e.g., 2% on Advocate bids, 0.5% on patient record
+    access, subscription models)
+  * Universities likely candidates (brand, program development, researcher access)
+  * Can sell population health research for Advocates to purchase
+- Advocates: Deliver/coordinate care, earn bonuses, manage copays (structure TBD),
+  no mid-year transfers, recruit from competitive bidders motivated by profit
+- Researchers: Blinded to Advocate/buyer identity, assigned by Auction Houses,
+  validate via billing/registries, portable across Auction Houses
+- Patients: Auto-transfer to new Advocates, can seek external care at own expense,
+  sandboxed record access via Auction Houses
+
+BONUS METRICS (Government decides unilaterally; public before year of effect)
+- Primary (10): Disability-Free Life Expectancy, Age First Chronic Disease,
+  Employment Rate, Cost/Healthy Life Year, Time to Hospitalization,
+  Mortality (age-adj), 30-day Readmission, Functional Independence, Healthcare
+  Utilization Efficiency, Patient-Reported Health Status
+- Disparity (10, race-neutral statute; demographic tracking by Auction Houses):
+  Maternal mortality/morbidity, Female AMI, Diabetes control, Opioid
+  overdose/treatment, Colorectal cancer screening/mortality, Hypertension control,
+  Breast cancer screening/mortality, Kidney disease, Mental health/suicide,
+  Prostate cancer screening/mortality
+- Data sources: Claims, pharmacy, registries, employment, hospital/ED, functional
+  assessments, surveys, certificates
+- Single composite score (prevent Goodharting; well-designed metrics are government
+  responsibility; market prices in historical performance)
+- No need for explicit causality attribution (metrics lag inherently)
+
+ECONOMIC LOGIC
+- Demand shift incentive: Prevention focus expected to shift utilization 15-25%
+  (Kaiser benchmark: 15-25% leftward demand shift, 6-8 years longer life expectancy,
+  50-70% more Stage 1 cancer diagnoses)
+- Advocates bid lower fixed/higher bonus in affluent areas; higher fixed in poorer
+  areas; rational Advocates build infrastructure (clinic, gym, grocery) in
+  underserved areas
+- Cost-effectiveness thresholds: UK £20-30K/QALY, AU A$50K/QALY, US $100-150K/QALY
+- International convergence hypothesis: Price-competitive care + outcome incentives
+  will gradually lower US medical spending toward international norms (offsetting
+  drug R&D export revenue)
+- Bundled payment precedent (BPCI, CJR): 56-60% cost/quality gains; use as
+  estimation tool, not as logical extension claim
+
+PILOT CRITERIA
+- Legislator has funds to cover ~150K underserved people
+- Target regions: Population 15K-50K each (underserved, no current Advocate
+  presence, <2 PCPs/10K, Uninsured+Medicaid >40%)
+- Geography: Defer to legislator/SBA on specific regions (Wyoming ≠ Baltimore;
+  implementation details vary)
+- Testable assumptions (model breaks if any fail):
+  * Advocates can be recruited (and won't cherry-pick)
+  * Bonuses shift behavior
+  * Metrics are measurable and resistant to gaming
+  * Auction Houses operate competitively
+  * Patient transfer is operationally feasible
+
+DECISIONS LOCKED IN
+- Doctors maintain independent records
+- Researchers blinded to Advocate/buyer identity
+- No secondary mid-year transfers
+- No patient opt-out on transfer
+- Metrics announced 6+ months before effect
+- Auction Houses compete nationally on fee structure
+- Copays: Advocate responsibility (structure TBD)
+- Re-bid logistics: Address as goals with explicit reasoning (TBD)
+- Metrics governance: Government unilateral with input; Auction Houses sell stats
+  for next-year metric improvement (not lobbying/model change)
+
+OPEN FOR ACADEMIC INPUT
+- Which international healthcare systems best serve as estimation benchmarks?
+- How to project cost convergence toward international norms (with uncertainty bands)?
+- Control region design (traditional FFS) feasible or infeasible for credibility?
+- Metrics validation: What external data triangulation prevents gaming?
+- Workforce implications: Displaced specialist support; geographic planning?
+- Re-bid logistics: Explicit notice periods, appeal rights, 90-day transition?
+- Metrics governance detail: Process for mid-year Auction House metric proposals?
+- SBA budget & qualifying region criteria: Academic to guide/defer to legislator
+
+DOCUMENT PREPARATION TASK
+Create white paper whose sections address:
+1. Problem statement (underserved populations, current outcomes, cost)
+2. Mechanism & economic logic (why this design incentivizes better outcomes)
+3. Testable hypotheses & measurement plan (metrics, data, timeline)
+4. Risk mitigation (Advocate failure, conflicts, gaming, workforce)
+5. Pilot design & success criteria (regions, budget, exit strategy)
+6. International benchmarking & cost convergence hypothesis
