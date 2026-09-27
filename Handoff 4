@@ -1,0 +1,68 @@
+RECIPROCAL OUTCOME BIDDING FOR UNIVERSAL CARE (ROBUC)
+Academic Validation Strategy Handoff Document
+September 25, 2026
+
+EXECUTIVE SUMMARY
+ROBUC is a competitive care-delivery model designed to slowly reduce US healthcare spending from 17.2% GDP (2024) to 8–10% by aligning Advocate incentives with population health outcomes. Grant regional monopolies via sealed-bid reverse Vickrey auctions. Winners deliver care, report metrics, and compete annually to maintain tenure based on performance.
+
+CORE MECHANISM
+Regions: 20,000 people per region. One Advocate per region.
+
+Auction: Sealed-bid reverse Vickrey (lowest total bid wins).
+- Bid = Fixed Rate + Expectation Value of Outcome Bonus
+- Bonus tiers: Tier 1 (100%), Tier 2 (75%), Tier 3 (50%), Tier 4 (25%), Tier 5 (0%, exit)
+- Bonus valuation = (1.0 + 0.75 + 0.5 + 0.25 + 0) / 5 = 0.5 × max bonus
+- Winner payment: Own fixed rate + bonus pool scaled to second-lowest bid's total value
+- Advocates bid truthfully (dominant strategy in second-price auctions)
+
+Tenure:
+- Year 1: Fixed rate only. Bonus determined post-12 months based on composite metric performance.
+- Year 2+: Advocates with top 80% composite health metric may continue with inflation-adjusted rates without rebidding. Bottom 20% regions re-bid annually.
+- Advocates may request rebid for any reason at standard auction cycle.
+
+Patient Transfer: Automatic to new Advocate upon contract change. No opt-out. Outgoing Advocate delivers final month; payment upon handoff certification by incoming Advocate.
+
+CONSTRAINTS AND PENALTIES
+Anti-Monopoly: Single Advocate may hold maximum 10% of all US regions.
+Regional Loss: Bottom 20% of regions by composite metric lose region. Data malfeasance → immediate rebid of affected region(s) without guilty Advocate.
+Systemic Failure: Loss rate exceeding 20% across all held regions triggers 12-month bidding ban. After 12 months, if remaining regions are healthy (top 80%), Advocate may bid again.
+No Appeals: Sanctions are final.
+
+BOUTIQUE ADVOCATES
+Definition: Advocates with fewer than 3 regions, founded by community members.
+Support: SBA-funded training (telehealth, CHW coordination, financial risk, actuarial guidance) plus low-interest loans sized to regional expected bonus value (max 1 loan per healthcare region).
+Advantage: Boutiques typically bid on underserved, lower-income regions with higher fixed rates (lower expected revenue) and minimal bonus expectations. Larger, better-funded Advocates avoid such regions, leaving Boutiques as de facto winners. Local monopoly is intentional: continuity of care in populations with medical mistrust outweighs fragmentation risk.
+
+PERFORMANCE METRICS
+Government (legislators and policy experts) unilaterally sets metrics based on three priorities: (1) availability of reliable data; (2) economic impact; (3) population health improvement.
+Public notification: ≥6 months before implementation.
+Composite Score: Weighted average of metrics to prevent single-metric gaming.
+
+Primary Metrics: Disability-Free Life Expectancy, Age of First Chronic Disease, Employment Rate by age, Age-Adjusted Mortality Rate, 30-Day Hospital Readmission Rate, Functional Independence, Patient-Reported Health Status, Unhoused Population Rate.
+
+Data Quality: Missing or falsified data grounds sanctions up to region loss. Researchers conducting outcome validation studies interact directly with Advocates for spot checks; penalties ramp accordingly.
+
+ECONOMIC LOGIC
+Demand Shift (outcome of competitive pricing and prevention focus):
+- Low-value services: 40–60% reduction
+- Moderate-value services: 10–20% reduction
+- High-value services: 0–5% increase
+
+Total utilization declines; cost per healthy life year improves. Advocates capture margin through operational efficiency and prevention, not volume inflation.
+
+Comparison: OECD nations spend 8–10% GDP with comparable outcomes. UK achieves 10% with NHS integrated care. 
+
+ENTITIES AND ROLES
+Government: Budget allocation, payment processing, metric setting and publication, licensing, anti-monopoly enforcement.
+Auction Houses: Sealed-bid administration, research task auctions, sandboxed data provision for researchers, sale and re-sale of research products
+Advocates: Care delivery, bidding, patient copay management, outcome reporting, infrastructure development (clinics, gyms, grocery partnerships).
+Researchers: Bid for and complete studies auctioned by Auction Houses. Perform spot checks to validate data 
+Patients: Automatic transfer to new Advocate. Freedom to seek external care at own expense
+SBA: Training and capital support for Boutique Advocates.
+
+VALIDATION APPROACH
+Phase 1: Agent-Based Modeling (6–8 months). Simulate 50–100 synthetic regions. Calibrate against real-world baselines: BPCI-A (Bundled Payments for Care Improvement Advanced), CJR (Comprehensive Joint Replacement), TEAM (Transforming Episode Accountability Models).
+Phase 2: International Benchmarking (4–6 months). Compare projected outcomes to OECD health systems and UK integrated care models.
+
+DESIGN INTENT
+ROBUC trades moderate short-term disruption (Advocate transitions, specialist workforce reallocation) for long-term stability through local outcome accountability. Boutiques serve underserved populations; larger Advocates compete on efficiency in urban and suburban regions. Government controls metrics; Advocates control operations. Outcome data becomes a public good via Auction House infrastructure.
