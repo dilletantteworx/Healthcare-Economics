@@ -3,7 +3,7 @@ Academic Validation Strategy Handoff Document
 September 25, 2026
 
 EXECUTIVE SUMMARY
-ROBUC is a competitive care-delivery model designed to slowly reduce US healthcare spending from 17.2% GDP (2024) to 8–10% by aligning Advocate incentives with population health outcomes. Grant regional monopolies via sealed-bid reverse Vickrey auctions. Winners deliver care, report metrics, and compete annually to maintain tenure based on performance.
+ROBUC is a competitive care-delivery model designed to slowly reduce US healthcare spending from 17.2% GDP (2024) to 8–10% by aligning Advocate incentives with population health outcomes. ROBUC Grants regional monopolies via sealed-bid reverse Vickrey auctions. Winners deliver care, report metrics, and compete annually to maintain tenure based on performance.
 
 CORE MECHANISM
 Regions: 20,000 people per region. One Advocate per region.
@@ -12,7 +12,7 @@ Auction: Sealed-bid reverse Vickrey (lowest total bid wins).
 - Bid = Fixed Rate + Expectation Value of Outcome Bonus
 - Bonus tiers: Tier 1 (100%), Tier 2 (75%), Tier 3 (50%), Tier 4 (25%), Tier 5 (0%, exit)
 - Bonus valuation = (1.0 + 0.75 + 0.5 + 0.25 + 0) / 5 = 0.5 × max bonus
-- Winner payment: Own fixed rate + bonus pool scaled to second-lowest bid's total value
+- Winner payment: Own fixed rate + bonus scaled to second-lowest bid's total value
 - Advocates bid truthfully (dominant strategy in second-price auctions)
 
 Tenure:
@@ -24,7 +24,7 @@ Patient Transfer: Automatic to new Advocate upon contract change. No opt-out. Ou
 
 CONSTRAINTS AND PENALTIES
 Anti-Monopoly: Single Advocate may hold maximum 10% of all US regions.
-Regional Loss: Bottom 20% of regions by composite metric lose region. Data malfeasance → immediate rebid of affected region(s) without guilty Advocate.
+Regional Loss: Advocates lose lowest performing 20% of all regions by composite metric. Widespread data malfeasance leads to immediate rebid of affected region(s) without guilty Advocate.
 Systemic Failure: Loss rate exceeding 20% across all held regions triggers 12-month bidding ban. After 12 months, if remaining regions are healthy (top 80%), Advocate may bid again.
 No Appeals: Sanctions are final.
 
@@ -40,15 +40,15 @@ Composite Score: Weighted average of metrics to prevent single-metric gaming.
 
 Primary Metrics: Disability-Free Life Expectancy, Age of First Chronic Disease, Employment Rate by age, Age-Adjusted Mortality Rate, 30-Day Hospital Readmission Rate, Functional Independence, Patient-Reported Health Status, Unhoused Population Rate.
 
-Data Quality: Missing or falsified data grounds sanctions up to region loss. Researchers conducting outcome validation studies interact directly with Advocates for spot checks; penalties ramp accordingly.
+Data Quality: Missing or falsified data grounds for sanctions up to region loss. Researchers conducting outcome validation studies interact directly with Advocates for spot checks; penalties ramp accordingly.
 
 ECONOMIC LOGIC
 Demand Shift (outcome of competitive pricing and prevention focus):
 - Low-value services: 40–60% reduction
 - Moderate-value services: 10–20% reduction
-- High-value services: 0–5% increase
+- High-value services: 5-10% increase
 
-Total utilization declines; cost per healthy life year improves. Advocates capture margin through operational efficiency and prevention, not volume inflation.
+Advocates have the knowledge and scope to promote substitute goods and lower-cost treatment options. Advocates bring preventative care and rapid forceful responses because early treatment is less expensive. Advocates see no incentive for un-needed tests and treatments.
 
 Comparison: OECD nations spend 8–10% GDP with comparable outcomes. UK achieves 10% with NHS integrated care. 
 
